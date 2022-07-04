@@ -1,0 +1,460 @@
+.title {
+    position: absolute;
+    width: 466px;
+    height: 31px;
+    left: 63px;
+    top: 505px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.line1 {
+    position: absolute;
+    width: 496px;
+    height: 1px;
+    left: 64px;
+    top: 543px;
+    background: #FFFFFF;
+    opacity: 0.25;
+    border-radius: 8px;
+}
+
+.line2 {
+    position: absolute;
+    width: 296px;
+    height: 1px;
+    left: 640px;
+    top: 543px;
+
+    background: #FFFFFF;
+    opacity: 0.25;
+    border-radius: 8px;
+}
+
+.feels-like {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 101px;
+    height: 66px;
+    left: 64px;
+    top: 568px;
+}
+
+.feels {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.like {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    color: #FFFFFF;
+}
+
+.pressure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 113px;
+    height: 66px;
+    left: 64px;
+    top: 666px;
+}
+
+.pres-title {
+    width: 66px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pres-number {
+    width: 160px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 101px;
+    height: 66px;
+    left: 281px;
+    top: 568px;
+}
+
+.hum-title {
+    width: 73px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hum-number {
+    width: 45px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 85px;
+    height: 66px;
+    left: 281px;
+    top: 666px;
+}
+
+.wind-title {
+    width: 38px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.wind-info {
+    width: 59px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.wind-icon-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 150px;
+    height: 32px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.precipitation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 74px;
+    height: 66px;
+    left: 470px;
+    top: 568px;
+}
+
+.pre-title {
+    width: 74px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pre-number {
+    width: 63px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.sunrise {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 117px;
+    height: 74px;
+    left: 640px;
+    top: 568px;
+}
+
+.sunrise-title {
+    width: 47px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sunrise-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 117px;
+    height: 48px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sunrise-time {
+    width: 45px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sunrise-icon {
+    width: 48px;
+    height: 48px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sunset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 131px;
+    height: 74px;
+    left: 640px;
+    top: 666px;
+}
+
+.sunset-title {
+    width: 38px;
+    height: 18px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sunset-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 131px;
+    height: 48px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sunset-time {
+    width: 59px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sunset-icon {
+    width: 48px;
+    height: 48px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

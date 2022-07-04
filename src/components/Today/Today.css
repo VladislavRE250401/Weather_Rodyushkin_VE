@@ -1,0 +1,69 @@
+.City {
+	position: absolute;
+    width: 131px;
+    height: 47px;
+    left: 655px;
+    top: 24px;
+    
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.Temp {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 65px;
+    line-height: 130%;
+
+    color: white;
+}
+
+.Icon-temp {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 214px;
+    height: 125px;
+    left: 613px;
+    top: 54px;
+}
+
+.Description {
+    position: absolute;
+    width: 111px;
+    height: 31px;
+    left: 670px;
+    top: 172px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.jpg img {
+    width: 125px;
+    height: 125px;
+}
