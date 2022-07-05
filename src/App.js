@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=54.1838&lon=45.1749&exclude=minutely,hourly,alerts&appid=78371fdfcd2c349e0e242278c9b16920&units=metric&lang=ru`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=54.1838&lon=45.1749&exclude=minutely,hourly,alerts&appid=25e0e67cc8328fea9015cd75dd81746b&units=metric&lang=ru`);
       if (componentMounted) {
         setvalue(await response.json())
       }
